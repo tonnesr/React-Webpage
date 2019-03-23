@@ -1,33 +1,107 @@
+/*Generic App Styling*/
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+	background-color: #282a36;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	font-size: calc(10px + 2vmin);
+	color: black;
+	background-color: #ff8484;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
 }
 
 .App-link {
-  color: #61dafb;
+	color: #ff006a;
+}
+.App-link:visited {
+	color: #850037;
+}
+.App-link:hover {
+	color: #ffa1c8;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/*Grid CSS*/
+
+/*Grid Images*/
+.gridElementImage, .gridElementImageBottom {
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+.gridElementImage {
+	top: 0;	
+}
+.gridElementImageBottom {
+	bottom: 0;
+}
+
+
+.gridElementContent, .gridElementTitle, .gridElementDate {
+	padding-left: 4vmin;
+	padding-right: 4vmin;
+	text-align: left;
+	margin-bottom: 0.5vmin;
+	display: inline-block;
+}
+.gridElementTitle {
+	float: left;
+}
+.gridElementDate {
+	float: right;
+}
+.gridElement {
+	color: #f8f8f2;
+}
+
+/*Grid styling from the framework*/
+.react-grid-item:not(.react-grid-placeholder) {
+	overflow: hidden;
+	background: #ccc;
+	border-radius: 1vmin;
+}
+.react-grid-item.static {
+	background: #44475a;
+}
+
+/*Button*/
+.gridElementButton {
+	border: none;
+	background: none;
+	color: inherit;
+	padding: 0;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+}
+
+#notSupported {
+	background: #e0e0e0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	height: 200vh;
+	width: 100%;
+}
+
+#notSupportedText {
+	font-size: 6vmin;
+	padding-left: 4vmin;
+	text-align: center;
+}
+
+/*Different Screen Sizes*/
+@media only screen and (max-width: 1217px) {
+	#notSupported {
+		display: none;
+	}
 }

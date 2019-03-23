@@ -1,0 +1,77 @@
+{
+	"dataVers":"1",
+	"content": {
+		"contents": [
+			{
+				"contentID":"0",
+				"contentURL":"https://google.com",
+				"createDate":"2019-03-23",
+				"shown":true,
+				"contImage":"./resources/frogBanner1.png",
+				"contImageBottom":"./resources/frogBanner1Bottom.png",
+				"contTitle":"Frog",
+				"contCont":"This frog is the best frog in the world. Just so you know. It may not look like much, but it is the greatest frog to ever defeat the goblin swarm of Atlantis. The Atlatic people was defeated by this froh i'll have you know. \n this is to test newline."
+			},
+			{
+				"contentID":"1",
+				"contentURL":"https://vg.no",
+				"createDate":"2019-03-23",
+				"shown":true,
+				"contImage":"./resources/frogBanner2.png",
+				"contImageBottom":"./resources/frogBanner2Bottom.png",
+				"contTitle":"Retrowave",
+				"contCont":"The retro sun is back. Praise the sun!"
+			},
+			{
+				"contentID":"2",
+				"contentURL":"https://nrk.no",
+				"createDate":"2019-03-23",
+				"shown":true,
+				"contImage":"./resources/frogBanner3.png",
+				"contImageBottom":"./resources/frogBanner1Bottom.png",				
+				"contTitle":"NRK",
+				"contCont":"NRK is the national brodcaster of Norway. It is what BBC is to England, Scotland, Northern Ireland, And Wales.\n Just in Norway."
+			},
+			{
+				"contentID":"3",
+				"contentURL":"https://github.com/tonnesr/Eu4Mod",
+				"createDate":"2019-03-23",
+				"shown":true,
+				"contImage":"./resources/frogBanner4.png",
+				"contImageBottom":"./resources/frogBanner1Bottom.png",				
+				"contTitle":"Github: EU4Mod",
+				"contCont":"A total conversion mod for EU4. That I started working on during the summer of 2018. But me and the other pearson working on it quickly managed to get bogged down by stuff and stuff."
+			},		
+			{
+				"contentID":"4",
+				"contentURL":"https://github.com/tonnesr/Eu4Mod",
+				"createDate":"2019-03-21",
+				"shown":true,
+				"contImage":"./resources/frogBanner4.png",
+				"contImageBottom":"./resources/frogBanner1Bottom.png",				
+				"contTitle":"Testing 1",
+				"contCont":"NUSDFN SDFSDUF SDUJF DSUF SDFU SDFU."
+			},
+			{
+				"contentID":"5",
+				"contentURL":"https://github.com/tonnesr/Eu4Mod",
+				"createDate":"2019-03-19",
+				"shown":true,
+				"contImage":"./resources/frogBanner4.png",
+				"contImageBottom":"./resources/frogBanner1Bottom.png",				
+				"contTitle":"Testing 2",
+				"contCont":"Eyy"
+			},
+			{
+				"contentID":"6",
+				"contentURL":"https://github.com/tonnesr/Eu4Mod",
+				"createDate":"2019-03-19",
+				"shown":true,
+				"contImage":"./resources/frogBanner4.png",
+				"contImageBottom":"./resources/frogBanner1Bottom.png",				
+				"contTitle":"Testing 3",
+				"contCont":"Eyyyyyyyyyyyyyyyyyy"
+			}				
+		]
+	}
+}
