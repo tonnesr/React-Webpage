@@ -1,77 +1,129 @@
 {
-	"dataVers":"1",
+	"dataVers":"1.5",
+	"dataDate":"2019-03-20",
+	"dataModified":"2019-03-24",
 	"content": {
 		"contents": [
 			{
 				"contentID":"0",
-				"contentURL":"https://google.com",
-				"createDate":"2019-03-23",
+				"contentURL":"",
+				"createDate":"2019-03-19",
 				"shown":true,
-				"contImage":"./resources/frogBanner1.png",
-				"contImageBottom":"./resources/frogBanner1Bottom.png",
-				"contTitle":"Frog",
-				"contCont":"This frog is the best frog in the world. Just so you know. It may not look like much, but it is the greatest frog to ever defeat the goblin swarm of Atlantis. The Atlatic people was defeated by this froh i'll have you know. \n this is to test newline."
+				"contImage":"./resources/topBannerProjects.png",
+				"contImageBottom":"./resources/bottomBannerProjects.png",				
+				"contTitle":"This Webpage",
+				"contCont":"This webpage was created to showcase some of my coding projects. This is to aid in the job search, after university. The webpage is created in Javascript and React, using Node. It is hosted on Heroku.",
+				"projectLanguage":"Javascript",
+				"projectFramework":"React, Grid-React-Layout"
 			},
 			{
 				"contentID":"1",
-				"contentURL":"https://vg.no",
-				"createDate":"2019-03-23",
+				"contentURL":"",
+				"createDate":"2019-02-10",
 				"shown":true,
-				"contImage":"./resources/frogBanner2.png",
-				"contImageBottom":"./resources/frogBanner2Bottom.png",
-				"contTitle":"Retrowave",
-				"contCont":"The retro sun is back. Praise the sun!"
+				"contImage":"./resources/frogBanner1.png",
+				"contImageBottom":"./resources/frogBanner1Bottom.png",				
+				"contTitle":"Bachelor Project - Skatteetaten",
+				"contCont":"Our bachelor project are a project where we design a system for the Norwegian Tax Administration(Skatteetaten). The project is designed to gather information and design ideeas. We are creating a completely new internal solution for tax \"Parts\" searching and visualisation.",
+				"projectLanguage":"Javascript, Go",
+				"projectFramework":"React, Elasticsearch, Skatteetaten's Design Framework"					
 			},
 			{
 				"contentID":"2",
-				"contentURL":"https://nrk.no",
-				"createDate":"2019-03-23",
+				"contentURL":"",
+				"createDate":"2018-10-30",
 				"shown":true,
-				"contImage":"./resources/frogBanner3.png",
-				"contImageBottom":"./resources/frogBanner1Bottom.png",				
-				"contTitle":"NRK",
-				"contCont":"NRK is the national brodcaster of Norway. It is what BBC is to England, Scotland, Northern Ireland, And Wales.\n Just in Norway."
-			},
+				"contImage":"./resources/topBannerRougelike.png",
+				"contImageBottom":"./resources/bottomBannerRougelike.png",				
+				"contTitle":"Roguelike Game 2",
+				"contCont":"A game designed in Visual C# using the standard terminal. There are classes, enemies, levels, and more.",
+				"projectLanguage":"C#",
+				"projectFramework":".NET"		
+			},	
 			{
 				"contentID":"3",
-				"contentURL":"https://github.com/tonnesr/Eu4Mod",
-				"createDate":"2019-03-23",
+				"contentURL":"",
+				"createDate":"2018-10-24",
 				"shown":true,
-				"contImage":"./resources/frogBanner4.png",
-				"contImageBottom":"./resources/frogBanner1Bottom.png",				
-				"contTitle":"Github: EU4Mod",
-				"contCont":"A total conversion mod for EU4. That I started working on during the summer of 2018. But me and the other pearson working on it quickly managed to get bogged down by stuff and stuff."
-			},		
+				"contImage":"./resources/topBannerRougelike1.png",
+				"contImageBottom":"./resources/topBannerRougelike1.png",				
+				"contTitle":"Roguelike Game 1",
+				"contCont":"A unfinished attempt at creating a roguelike game in Visual C#. Abandoned in favour of creating another roguelike game.",
+				"projectLanguage":"C#",
+				"projectFramework":".NET"					
+			},
 			{
 				"contentID":"4",
-				"contentURL":"https://github.com/tonnesr/Eu4Mod",
-				"createDate":"2019-03-21",
+				"contentURL":"",
+				"createDate":"2018-10-16",
 				"shown":true,
-				"contImage":"./resources/frogBanner4.png",
-				"contImageBottom":"./resources/frogBanner1Bottom.png",				
-				"contTitle":"Testing 1",
-				"contCont":"NUSDFN SDFSDUF SDUJF DSUF SDFU SDFU."
-			},
+				"contImage":"./resources/topBannerJavaGame.png",
+				"contImageBottom":"./resources/bottomBannerJavaGame.png",				
+				"contTitle":"Adventure Game \"Occult\"",
+				"contCont":"The start of a adventure game created with Java(AWT). The basic functionality like clicking on objects, and the GUI are implemented.",
+				"projectLanguage":"Java",
+				"projectFramework":""					
+			},	
 			{
 				"contentID":"5",
-				"contentURL":"https://github.com/tonnesr/Eu4Mod",
-				"createDate":"2019-03-19",
+				"contentURL":"https://bitbucket.org/tonnesr/dat234/src/master/",
+				"createDate":"2018-08-29",
 				"shown":true,
-				"contImage":"./resources/frogBanner4.png",
-				"contImageBottom":"./resources/frogBanner1Bottom.png",				
-				"contTitle":"Testing 2",
-				"contCont":"Eyy"
-			},
+				"contImage":"./resources/topBannerHacking.png",
+				"contImageBottom":"./resources/bottomBannerHacking.png",				
+				"contTitle":"Hacking Scripts (Reverse-Shell, Brute-Forcing, etc.)",
+				"contCont":"Created under the course Hacking and Scripting. Only ethical hacking here. Some of the scripts where created to hack into a web server's network. The most interesting scripts are in the FinalProject directory.",
+				"projectLanguage":"Python, Bash, Powershell",
+				"projectFramework":"SMBConnection, paramiko"				
+			},			
 			{
 				"contentID":"6",
-				"contentURL":"https://github.com/tonnesr/Eu4Mod",
-				"createDate":"2019-03-19",
+				"contentURL":"https://github.com/KimMoe/IS-213-Gruppe1",
+				"createDate":"2018-04-10",
 				"shown":true,
-				"contImage":"./resources/frogBanner4.png",
-				"contImageBottom":"./resources/frogBanner1Bottom.png",				
-				"contTitle":"Testing 3",
-				"contCont":"Eyyyyyyyyyyyyyyyyyy"
-			}				
+				"contImage":"./resources/topBannerPong.png",
+				"contImageBottom":"./resources/bottomBannerPong.png",				
+				"contTitle":"Neural Network Plays Pong",
+				"contCont":"We implmented a neural networking into Pong. The Pong was created from scratch using Java AWT, and the neural network was implemented using Neuroph. Read the GitHub wiki for more information.",
+				"projectLanguage":"Java",
+				"projectFramework":"Neuroph"					
+			},		
+			{
+				"contentID":"7",
+				"contentURL":"https://github.com/tonnesr/UiA-Algoritmer-og-Datastrukturer-IS-211",
+				"createDate":"2018-03-01",
+				"shown":true,
+				"contImage":"./resources/topBannerHuffman.png",
+				"contImageBottom":"./resources/bottomBannerHuffman.png",				
+				"contTitle":"Algorithms and Data Structures",
+				"contCont":"Programs created for the subject algorithms and data structures. Huffman, Searching, Sorting, Tables, Trees, Heaps, Graphs, Maps, Sets, Stacks, Lists, Arrays, Queues.",
+				"projectLanguage":"Java",
+				"projectFramework":""					
+			},
+			{
+				"contentID":"8",
+				"contentURL":"https://github.com/tonnesr/Updoot-Discord-bot",
+				"createDate":"2017-11-13",
+				"shown":true,
+				"contImage":"./resources/topBannerDiscordBot.png",
+				"contImageBottom":"./resources/bottomBannerDiscordBot.png",
+				"contTitle":"Discord Bot",
+				"contCont":"A bot created for the popular voice chat platform Discord. The bot can play sound, react to messages and write interesting information to users.",
+				"projectLanguage":"Javascript",
+				"projectFramework":"DiscordJS, Random-Unicode-Emoji, ffmpeg, Node-Opus"				
+			},	
+			{
+				"contentID":"9",
+				"contentURL":"https://github.com/bragex/the-vigilantes",
+				"createDate":"2017-08-28",
+				"shown":true,
+				"contImage":"./resources/topBannerVigilantes.png",
+				"contImageBottom":"./resources/bottomBannerVigilantes.png",
+				"contTitle":"First Large Student Project",
+				"contCont":"The first large student project we did. The project-goal was to created a scheduler with the help of Java(servlets, JSP), and MySQL.",
+				"projectLanguage":"Java, MySQL",
+				"projectFramework":""
+			}			
 		]
 	}
 }

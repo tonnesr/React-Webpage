@@ -1,27 +1,36 @@
-/*Generic App Styling*/
 .App {
 	background-color: #282a36;
 }
 
+/*Header*/
 .App-header {
 	font-size: calc(10px + 2vmin);
-	color: black;
-	background-color: #ff8484;
+	color: #f8f8f2;
+	background: #44475a;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	font-size: calc(10px + 2vmin);
 }
+#HeaderNameTitle {
+	font-size: 4vmin;
+	color: #f8f8f2;
+}
+.HeaderContents {
+	font-size: 1.5vmin;
+	margin-top: -3vmin;
+	display: inline-block;
+	margin-left: 1vmin;
+	margin-right: 1vmin;	
+}
+#HeaderContentLine1, #HeaderContentLine2, #HeaderContentLine3, #HeaderContentLine4, #HeaderContentLine0, #HeaderContentLine5 {
+	color: #ffb86c;
+}
 
-.App-link {
-	color: #ff006a;
-}
-.App-link:visited {
-	color: #850037;
-}
-.App-link:hover {
-	color: #ffa1c8;
+a, a:hover, a:visited {
+	color: #ffffff;
+	text-decoration: none;
 }
 
 
@@ -32,6 +41,7 @@
 	width: 100%;
 	position: absolute;
 	left: 0;
+	opacity: 0.35;
 }
 .gridElementImage {
 	top: 0;	
@@ -40,35 +50,43 @@
 	bottom: 0;
 }
 
-
-.gridElementContent, .gridElementTitle, .gridElementDate {
+/*Grid elements*/
+.gridElementContent, .gridElementTitle, .gridElementDate, .gridElementLanguage, .gridElementFramework {
 	padding-left: 4vmin;
 	padding-right: 4vmin;
 	text-align: left;
 	margin-bottom: 0.5vmin;
 	display: inline-block;
+	color: #f8f8f2;
 }
 .gridElementTitle {
 	float: left;
+	color: #50fa7b;
 }
 .gridElementDate {
 	float: right;
+	color: #ff5555;
 }
-.gridElement {
-	color: #f8f8f2;
+.gridElementLanguage {
+	float: left;
+	color: #f1fa8c;
+}
+.gridElementFramework {
+	float: right;
+	color: #8be9fd;
 }
 
 /*Grid styling from the framework*/
 .react-grid-item:not(.react-grid-placeholder) {
 	overflow: hidden;
-	background: #ccc;
+	background: #44475a;
 	border-radius: 1vmin;
 }
 .react-grid-item.static {
 	background: #44475a;
 }
 
-/*Button*/
+/*Button in grid elements*/
 .gridElementButton {
 	border: none;
 	background: none;
@@ -77,31 +95,4 @@
 	cursor: pointer;
 	width: 100%;
 	height: 100%;
-}
-
-#notSupported {
-	background: #e0e0e0;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	z-index: 1;
-	display: none;
-	overflow: hidden;
-	position: absolute;
-	height: 200vh;
-	width: 100%;
-}
-
-#notSupportedText {
-	font-size: 6vmin;
-	padding-left: 4vmin;
-	text-align: center;
-}
-
-/*Different Screen Sizes*/
-@media only screen and (max-width: 1217px) {
-	#notSupported {
-		display: none;
-	}
 }
