@@ -76,7 +76,7 @@ class App extends Component {
 							<p className="gridElementFramework" id={"gridElementFramework" + ID}>{item.projectFramework}</p>
 						</div>
 						<div className="gridBottom" id={"gridBottom" + ID}>
-							<img className="gridElementImageBottom" id={"gridElementImageBottom" + ID} src={require(`${item.contentImageBottom}`)}/>
+							<img className="gridElementImageBottom" id={"gridElementImageBottom" + ID}  alt="Project Banner Bottom" src={require(`${item.contentImageBottom}`)}/>
 						</div>
 					</button>
 				</div>
